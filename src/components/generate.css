@@ -1,0 +1,32 @@
+#buttons {
+    margin-top: 100px;
+}
+
+#new-quote {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+
+button {
+    border-radius: 3px;
+}
+
+#left-buttons {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+}
+
+#twitter {
+    margin-right: 20px;
+}
+
+#tumblr {
+    margin-left: 20px;
+}
+
+.background-color {
+    background-color: green;
+    color: white;
+}

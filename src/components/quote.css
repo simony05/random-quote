@@ -1,0 +1,40 @@
+.center-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#quote-box {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    border-radius: 3px;
+    padding: 40px 50px;
+}
+
+#text {
+    font-size: 32px;
+    font-family: 'Alegreya Sans SC';
+}
+
+#author {
+    font-size: 24px;
+    font-family: 'Alegreya Sans SC';
+    position: absolute;
+    right: 40px;
+    margin: 20px;
+    transform: translateY(-50%);
+}
+
+.text-color {
+    color: green;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    border: 100px black;
+}
