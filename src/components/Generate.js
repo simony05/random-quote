@@ -17,7 +17,7 @@ function Generate(props) {
             <div>
                 <div class="row" id="left-buttons">
                     <div class="col-md-2">
-                        <a id="twitter" class="btn btn-default background-color" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a id="tweet-quote" class="btn btn-default background-color" href="https://twitter.com/intent/tweet"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
                     <div class="col-md-2">
                         <button id="tumblr" class="btn btn-default background-color"><i class="fa-brands fa-instagram"></i></button>
