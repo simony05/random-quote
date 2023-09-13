@@ -22,7 +22,7 @@ function Quote() {
             <div class="center-screen" id="quote-box">
                 <h1 id="text" class="text-color"><i class="fa fa-quote-left text-color"></i> { generate.text }</h1>
                 <h3 id="author" class="text-color">- { generate.author }</h3>
-            <Generate color={ generate.color }/>
+            <Generate />
             </div>
         </div>
     )

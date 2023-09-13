@@ -1,14 +1,16 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { newQuote } from "../features/generate";
 import './generate.css';
 import $ from 'jquery';
 
-function Generate(props) {
+function Generate() {
+    const generate = useSelector((state) => state.generate.value)
     const dispatch = useDispatch()
 
     $(".background-color").animate({ opacity: 0 }, 250, function () {
-        $(".background-color").css("background-color", props.color);
+        $(".background-color").css("background-color", generate.color);
         $(".background-color").animate({ opacity: 1 }, 250);
     });
  
